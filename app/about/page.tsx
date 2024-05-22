@@ -1,4 +1,5 @@
 import NavBar from "../navbar";
+import React from "react";
 import "./about.css"
 import { PiRobot } from "react-icons/pi";
 import { FaLaptopCode } from "react-icons/fa";

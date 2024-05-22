@@ -1,0 +1,41 @@
+@import url("../globals.css");
+
+
+main {
+    padding: 2rem;
+}
+
+.big_text_skills {
+    font-size: 40px;
+    max-width: fit-content;
+    text-shadow: 0 0 25px white;
+    width: 60%;
+}
+
+.title {
+    padding-right: 4rem;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.icon_size {
+    width: 3rem;
+    height: 3rem;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    font-size: x-small;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
