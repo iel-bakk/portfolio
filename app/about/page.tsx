@@ -32,7 +32,7 @@ export default function About () {
             <footer>
                 <div><a href="https://www.linkedin.com/in/ismail-el-bakkouchi-a17429225/" target="_blank"><FaLinkedin/> LINKEDIN</a></div>
                 <div><a href="https://github.com/iel-bakk" target="_blank"> <FaGithub /> GITHUB</a></div>
-                <div><BiLogoGmail/> ISMAIL.ELBAKKOUCHI@GMAIL.COM</div>
+                <div><BiLogoGmail/> ISMAIL.ELBAKKOUCHI0@GMAIL.COM</div>
             </footer>
         </>
     )
