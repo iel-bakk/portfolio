@@ -1,0 +1,37 @@
+@import url("../globals.css");
+
+main {
+    padding: 2rem;
+}
+
+.big_text_projects {
+    font-size: 40px;
+    max-width: fit-content;
+    text-shadow: 0 0 25px white;
+    width: 60%;
+}
+
+.project_icon {
+    display: flex;
+    flex-direction: column;
+    font-size: x-small;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.projects_parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
+
+.project_image {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 9999px;
+    border: 1px solid white;
+}
