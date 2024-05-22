@@ -1,0 +1,54 @@
+@import url("../globals.css");
+
+.about_main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 4rem;
+    padding: 4rem;
+    /* margin: 2rem; */
+    /* padding: 4rem */
+}
+
+.big_text {
+    font-size: 40px;
+    max-width: fit-content;
+    text-shadow: 0 0 25px white;
+}
+
+
+.image_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+.about_image {
+    width: 65%;
+    height: 65%;
+    border-radius: 99999px;
+    border: 3px solid white;
+}
+
+.interests {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 1rem;
+}
+
+.about_text_section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+footer {
+    font-size: x-small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
