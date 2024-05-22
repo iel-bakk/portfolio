@@ -18,6 +18,13 @@ html {
   height: 100%;
 }
 
+a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits the color from its parent element */
+  background-color: transparent; /* Makes the background transparent */
+  font-weight: normal; /* Resets font weight */
+}
+
 body {
   margin: 0;
 }
