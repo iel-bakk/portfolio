@@ -12,6 +12,7 @@ export default function About () {
     return (
         <>
             <NavBar/>
+            <div className="bg_image"></div>
             <main className="about_main">
                 <section className="about_text_section">
                     <div>

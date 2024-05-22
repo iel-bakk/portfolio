@@ -7,8 +7,6 @@
     justify-content: space-around;
     gap: 4rem;
     padding: 4rem;
-    /* margin: 2rem; */
-    /* padding: 4rem */
 }
 
 .big_text {
@@ -23,8 +21,18 @@
     align-items: center;
     justify-content: center;
     width: 50%;
-
 }
+
+.bg_image {
+    position: fixed; /* or 'absolute' depending on your layout needs */
+    width: 100vw; /* Cover the entire viewport width */
+    height: 100vh; /* Cover the entire viewport height */
+    background-image: url('/globe.png');
+    z-index: -1; /* Ensure it's behind other content */
+    opacity: 0.5; /* Adjust the opacity level */
+    background-repeat: no-repeat;
+}
+
 .about_image {
     width: 65%;
     height: 65%;
@@ -44,6 +52,7 @@
     flex-direction: column;
     gap: 2rem;
 }
+
 
 footer {
     font-size: x-small;
