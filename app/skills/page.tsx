@@ -64,6 +64,7 @@ export default function Skills () {
                         <p>POSTGRES</p>
                     </div>
                 </div>
+                <div><p className="future_work">STILL WORKING ON MY AI AND MACHILE LEARNINCG SKILLS ....</p></div>
             </main>
             <footer>
                 <div><a href="https://www.linkedin.com/in/ismail-el-bakkouchi-a17429225/" target="_blank"><FaLinkedin/> LINKEDIN</a></div>
