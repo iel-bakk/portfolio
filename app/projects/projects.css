@@ -20,6 +20,7 @@ main {
     align-items: center;
     justify-content: center;
     padding: 0.5rem;
+    margin: 0;
 }
 
 .projects_parent {
@@ -29,7 +30,6 @@ main {
     grid-column-gap: 2px;
     grid-row-gap: 2px;
 }
-
 
 .project_image:hover {
     transform: translateY(-10px);
@@ -50,4 +50,28 @@ main {
     align-items: center;
     justify-content: center;
     gap: 2rem;
+}
+
+.project_modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    z-index: 100000;
+    position: fixed; /* or 'absolute' depending on your layout needs */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 70%; /* This will now be calculated automatically */
+    width: 20rem; /* This will now be calculated automatically */
+    background-color : var(--bg__color);
+    border-radius: 1rem;
+}
+
+.modal_image {
+    border-radius: 1rem;
+    width: 8rem;
+    height: 8rem;
 }
