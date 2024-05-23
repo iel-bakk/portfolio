@@ -1,6 +1,7 @@
 @import url("../globals.css");
 
 main {
+    overflow: hidden;
     padding: 2rem;
 }
 
@@ -29,9 +30,24 @@ main {
     grid-row-gap: 2px;
 }
 
+
+.project_image:hover {
+    transform: translateY(-10px);
+    z-index: 1000;
+}
+
 .project_image {
     width: 9rem;
+    transition: transform 0.3s ease-in-out;
     height: 9rem;
     border-radius: 9999px;
     border: 1px solid white;
+}
+
+.footer_style {
+    font-size: x-small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }

@@ -1,3 +1,4 @@
+"use client";
 import NavBar from "../navbar";
 import "./skills.css"
 import React from "react";
@@ -66,7 +67,7 @@ export default function Skills () {
                 </div>
                 <div><p className="future_work">STILL WORKING ON MY AI AND MACHILE LEARNINCG SKILLS ....</p></div>
             </main>
-            <footer>
+            <footer className="footer_style">
                 <div><a href="https://www.linkedin.com/in/ismail-el-bakkouchi-a17429225/" target="_blank"><FaLinkedin/> LINKEDIN</a></div>
                 <div><a href="https://github.com/iel-bakk" target="_blank"> <FaGithub /> GITHUB</a></div>
                 <div><BiLogoGmail/> ISMAIL.ELBAKKOUCHI0@GMAIL.COM</div>

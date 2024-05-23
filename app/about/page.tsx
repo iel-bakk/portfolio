@@ -1,3 +1,4 @@
+"use client";
 import NavBar from "../navbar";
 import React from "react";
 import "./about.css"
@@ -30,7 +31,7 @@ export default function About () {
                     <img className="about_image" src="/me.jpeg"></img>
                 </section>
             </main>
-            <footer>
+            <footer className="footer_style">
                 <div><a href="https://www.linkedin.com/in/ismail-el-bakkouchi-a17429225/" target="_blank"><FaLinkedin/> LINKEDIN</a></div>
                 <div><a href="https://github.com/iel-bakk" target="_blank"> <FaGithub /> GITHUB</a></div>
                 <div><BiLogoGmail/> ISMAIL.ELBAKKOUCHI0@GMAIL.COM</div>

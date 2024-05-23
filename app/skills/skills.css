@@ -43,3 +43,11 @@ main {
     justify-content: center;
     padding: 0.5rem;
 }
+
+.footer_style {
+    font-size: x-small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
